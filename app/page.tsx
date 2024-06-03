@@ -109,7 +109,7 @@ const Header = ({
       </div>
 
       <div
-        className=" -mr-48 sm:mr-0"
+        className=" -mr-48 sm:mr-0 xl:w-2/3"
       >
         <img src={"./photo/header.webp"} style={{ borderColor: detailscolor }} alt="main" className=" ml-12 md:ml-0  aspect-square object-cover rounded-full h-[50vh] w-[50vh] md:h-full md:w-full border-8 shadow-inner shadow-gray-600  " />
       </div>
