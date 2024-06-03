@@ -127,7 +127,7 @@ const Service = ({ editedText }: any) => {
       className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-auto-fit mt-24 gap-4 max-w-screen-2xl mx-auto overflow-hidden"
     >
       {serviceText.map((service: any, index: number) => (
-        <div key={index} className="flex flex-col items-center w-full gap-2 p-4">
+        <div key={index} className="flex flex-col items-center w-full gap-2 p-4 h-full">
           <Servimg index={index} />
           <div className="flex flex-col w-[80%] gap-2 p-3 text-center  z-10 justify-center">
             <h3 className="font-bold">
