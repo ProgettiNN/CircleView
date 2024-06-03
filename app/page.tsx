@@ -124,7 +124,7 @@ const Service = ({ editedText }: any) => {
   return (
     <section
       id="servizi"
-      className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 mt-24 gap-4 max-w-screen-2xl mx-auto overflow-hidden"
+      className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-auto-fit mt-24 gap-4 max-w-screen-2xl mx-auto overflow-hidden"
     >
       {serviceText.map((service: any, index: number) => (
         <div key={index} className="flex flex-col items-center w-full gap-2 p-4">
